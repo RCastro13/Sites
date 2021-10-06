@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Site Pessoal</title>
+</head>
+
+<body>
+
+    <header class="header container">
+    
+        <div class="row">
+
+            <div class="col-lg-8">
+                <nav class="menu">
+
+                    <input class="menu-mobile" type="checkbox" id="menu-mobile">
+                    <label class="menu-mobile" for="menu-mobile">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-times-circle"></i>
+                    </label>
+                    
+                        <ul class="menu-lista">
+                            <li><a class="alista" href="#">Perfil</a></li>
+                            <li><a class="alista" href="#">Projetos</a></li>
+                            <li><a class="alista" href="#">Experiência</a></li>
+                            <li><a class="alista" href="#">Repositórios GitHub</a></li>
+                            <li><a class="alista" href="#">Conteúdo</a></li>
+                        </ul>
+
+                </nav>
+            </div>
+            
+                <div class="col-lg-4">
+                    <div class="caixa-pesquisa">
+                        <h3 class="titulo">Pesquisa</h3>
+                        <input type="search" class="texto-pesquisa">
+                        <button>Ok</button>
+                    </div>
+                </div>
+
+        </div>
+</header>
+
+
+<main>
+
+    <section class="container perfil">
+
+        <div class="row">
+
+            <div class="col-lg-4 col-sm-12">
+
+                <div class="imagem-perfil">
+
+                    <img class="imagem-perf" src="imgs\FotoPerfil.jpg">
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-8 col-sm-12">
+
+                <div class="texto-perfil">
+                    <h1 class="nome-perfil"> RUBENS DA CUNHA CASTRO </h1>
+                    <p><em>Objetivos:</em></p>
+                    <p class="text-perfil">-Formação em Ciência da Computação em 2024 (atualmente no 1º período);</p>
+                    <p class="text=perfil">-Desenvolver jogos utilizando Gamer Maker e Unity;</p>
+                    <p class="text=perfil">-Projetos de Pesquisa e estágio na área de computação;</p>      
+                </div>  
+                    <div class="redes">
+                        
+                        <h1 class="nome-redes">REDES SOCIAIS</h1>
+
+                        <div class="redes-icons">
+                            <a class="icon" href="https://twitter.com/Rcastro_13"><img alt="twitter-bird" src="imgs\twitter-bird.png"> </a>
+                            <a class="icon" href="https://www.linkedin.com/in/rubens-castro-382ba6219/"><img alt="linkedin-icon" src="imgs\linkedin-icon.png"> </a>
+                            <a class="icon" href="https://www.instagram.com/rubao_ccastro/"><img alt="insta-logo" src="imgs\insta-logo.png"> </a>
+                        </div>
+                        
+                    </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="Projetos container">
+
+        <div class="row">
+
+            <div class="col-lg-9 col-sm-12">
+                <h2 class="projeto-title">Projetos</h2>
+            </div>
+
+            <div class="col-12 col-lg-3">
+                <nav class="dropdown">
+                    <div class="tampacheck">a</div>
+                    <input type="checkbox" id="menudropdown">
+                    <label for="menudropdown" class="dropdown">
+                        <div class="menudropdown">
+                            Categorias
+                            <img src="imgs\seta.jpg" width="15px">
+                        </div>
+                    </label>
+                    <div class="opcoesdropdown">
+                        <div class="opcao">Tecnologia Geral</div>
+                        <div class="opcao">Jogos</div>
+                        <div class="opcao">Programas em C</div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <div class="projeto-div">
+                    <a href="https://scratch.mit.edu/projects/561360239/"><img class="projeto-imagem" src="imgs\Projeto1-jogo.jpg"></a>
+                    <p>Projeto 1 - Desenvolvimento do jogo "Tyrano Time" na linguagem "Scratch"</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <div class="projeto-div">
+                    <a href="https://www.tinkercad.com/things/gKq4dpidaWg?utm_source=externalsite&utm_medium=embedver1&utm_campaign=embed"><img class="projeto-imagem" src="imgs\Projeto2-Tinkercad.jpg"></a>
+                    <p>Projeto 2 - Sistema de arduíno com uma das temática do "Space Apps" da NASA</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <div class="projeto-div">
+                    <a href="https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20212-administracao-do-tempo-1"><img class="projeto-imagem" src="imgs\Projeto3-github.jpg"></a>
+                    <p>Projeto 3 - Repositório GitHub para projeto de site para administração do tempo</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+                <div class="projeto-div">
+                    <a href="http://127.0.0.1:5500/SitePessoal.html"><img class="projeto-imagem" src="imgs\Projeto4-Site.png"></a>
+                    <p>Projeto 4 - Desenvolvimento de um site pessoal para Portfolio.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-10">
+            </div>
+
+            <div class="carregar-projeto col-lg-2 col-sm-12">
+                <button>+ Carregar mais projetos</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="Experiencia container">
+        
+        <div class="row">
+        
+            <h2 class="titlexp">Experiência</h2>
+
+            <div class="col-lg-3 col-sm-12">
+                <div class="exp">
+                    <img class="img-xp" src="imgs\xp1-fce.png">
+                </div>
+            </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="textoxp">
+                            <p><b>Certificado Cambridge FCE</b></p>
+                            <p>Certificado de nível de inglês 'C1' obtido através da prova "First English Certificate" (FCE) com a nota classificada como "Pass with Distinction".</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="exp">
+                            <img class="img-xp" src="imgs\xp2-Prog1.0.png">
+                        </div>
+                    </div>
+                            <div class="col-lg-9 col-sm-12">
+                                <div class="textoxp">
+                                    <p><b>Competição "Programação 1.0 INATEL" 2019</b></p>
+                                    <p>Participação na competição "Programação 1.0" da Inatel no ano de 2019, que consiste no estudo e desenvolvimento de programas em linguagem C++ em duplas, finalizando na 6º colocação geral. </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-sm-12">
+                                <div class="exp">
+                                    <img class="img-xp" src="imgs\xp3-CEM.jpg">
+                                </div>
+                            </div>
+                                    <div class="col-lg-9 col-sm-12">
+                                        <div class="textoxp">
+                                            <p><b>Competição "CEM" EMGE - 2020</b></p>
+                                            <p>Participação no Campeonato Estadual de Matemática (CEM), realizado pela EMGE, que consiste numa bateria de exercícios e problemas matemáticos que devem ser resolvidos semanalmente ao longo do ano, finalizando na 5º colocação geral.</p>
+                                        </div>
+                                    </div>
+
+
+        </div>
+        
+        <div class="row carregar-xp">
+            <div class="linha col-lg-10">
+            </div>
+
+            <div class="carregar-exp col-lg-2 col-sm-12">
+                <button>+ Carregar mais experiências</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container repositorios">
+
+        <div class="row reposit-list">
+
+                <h2 class="titulorep">Repositórios</h2>
+
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="reposit-img">
+                            <a href="https://github.com/RCastro13/C-digos-em-C-parte1-/tree/main/AEDS1Lista1"><img alt="ícone-pasta" src="imgs\logo-pasta.png"></a>
+                            <h4>Lista 1</h4>
+                            <p>Lista com 10 Exercícios relacionados ao uso de condicional em linguagem C.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="reposit-img">
+                            <a href="https://github.com/RCastro13/C-digos-em-C-parte1-/tree/main/AEDS1Lista2"><img alt="ícone-pasta" src="imgs\logo-pasta.png"></a>
+                            <h4>Lista 2</h4>
+                            <p>Lista com 10 Exercícios relacionados ao uso de repetição em linguagem C.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="reposit-img">
+                            <a href="https://github.com/RCastro13/C-digos-em-C-parte1-/tree/main/AEDS1Lista3"><img alt="ícone-pasta" src="imgs\logo-pasta.png"></a>
+                            <h4>Lista 3</h4>
+                            <p>Lista com 10 Exercícios relacionados à aplicação da modularização em linguagem C.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="row carregar-rep">
+            <div class="linha col-lg-10">
+            </div>
+
+            <div class="carregar-reposit col-lg-2 col-sm-12">
+                <button>+ Carregar mais repositórios</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="recomendação container">
+
+        <div class="row">
+
+            <h2 class="recomentitle">Recomendação de Conteúdo</h2>
+
+                <div class="recomend-box col-lg-4 col-sm-12">
+                    <iframe class="iframeyt" width="400" height="220" src="https://www.youtube.com/embed/vFjXKOXdgGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5>Análise das engines para produção de games e os passos para aprender efetivamente a usá-las.</h5>
+                        <p><b>Canal:</b> Game Maker's Toolkit / <b>Estreia:</b> 2021</p>
+                </div>
+                
+                <div class="recomend-box col-lg-4 col-sm-12">
+                    <iframe class="iframeyt" width="400" height="220" src="https://www.youtube.com/embed/sqsNb0s7Oq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5>Tutorial de como fazer um jogo no estilo "Space Shooter" usando linguagem "Scratch".</h5>
+                        <p><b>Canal:</b> griffpatch / <b>Estreia:</b> 2021</p>
+                </div>
+
+                <div class="recomend-box col-lg-4 col-sm-12">
+                    <iframe class="iframeyt" width="400" height="220" src="https://www.youtube.com/embed/7ITtPPE-pXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h5>Análise profunda da história, jogabilibilidade e aspectos do jogo indie "Hollow Knight".</h5>
+                        <p><b>Canal:</b> Game Maker's Toolkit / <b>Estreia:</b> 2019</p>
+                </div>
+
+        </div>
+
+        <div class="row carregar-vid">
+            <div class="linha col-lg-10">
+            </div>
+
+            <div class="carregar-recomend col-lg-2 col-sm-12">
+                <button>+ Carregar mais recomendações</button>
+            </div>
+        </div>
+
+    </section>
+
+        <footer class="footer container">
+        
+            <div class="footer-box row">
+                
+                <div class="text-foot col-lg-10 col-sm-12">
+                    <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></p>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <img class="img-foot" alt="ícone-Puc" src="imgs\puc-logo-certo.png">
+                </div>
+            
+            </div>
+    
+        </footer>
+
+</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
